@@ -5,12 +5,6 @@ export const Timer = () => {
     // Crér un component Timer qui va afficher un compte à rebours. Utiliser le useEffect pour gèrer les secondes à retirer et useState pour gèrer l'affichage du compte à rebours.
     let [seconds, setSeconds] = useState(10);
     useEffect(() => {
-        // let Decrement = () => {
-            // for(let i = 10; i > 0; i--){
-            //     setTimeout(() => {
-            //         setSeconds(seconds - 1);
-            //     }, 1000);
-            // }
         if(seconds > 0){
             let decrement = setTimeout(() => {
                 setSeconds(seconds - 1)

@@ -1,5 +1,5 @@
 import React from 'react'
-import { useState, useEffect } from 'react'
+import { useState, useEffect } from 'react';
 
 export const Chronometre = () => {
     // Créer un component Chronomètre qui, grace au useEffect, va afficher un chronomètre qui s'incrémtente automatiquement toute les secondes. Le chronomètre doit etre formaté correctement, c'est à dire que par exemple quand on arrive à 61 secondes, le chronomètre doit afficher 1:01.

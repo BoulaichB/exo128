@@ -18,7 +18,6 @@ export const Todolist = () => {
         liste.map(item => {
             if(item.task.includes(search)){
                 newNew.push(item.task);
-                console.log(item.task);
             }
             
         });

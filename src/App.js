@@ -3,7 +3,7 @@ import { Compteur } from "./components/compteur/compteur";
 import { Progressbar } from "./components/progressbar/progressbar";
 import { Timer } from "./components/timer/timer";
 import { Todolist } from "./components/todolist/todolist";
-
+import { Animatedbutton } from "./components/animatedbutton/animatedbutton";
 
 function App() {
   return (
@@ -13,6 +13,7 @@ function App() {
       <Progressbar/>
       <Timer/>
       <Todolist/>
+      <Animatedbutton/>
     </div>
   );
 }

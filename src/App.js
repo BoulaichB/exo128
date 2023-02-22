@@ -4,6 +4,7 @@ import { Progressbar } from "./components/progressbar/progressbar";
 import { Timer } from "./components/timer/timer";
 import { Todolist } from "./components/todolist/todolist";
 import { Animatedbutton } from "./components/animatedbutton/animatedbutton";
+import ProductList from "./components/productList/productList";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Timer/>
       <Todolist/>
       <Animatedbutton/>
+      <ProductList/>
     </div>
   );
 }
